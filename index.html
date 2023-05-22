@@ -2,15 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Todo list</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>DOM MANIPULATION</title>
 </head>
 <body>
-    <h1>Welcome to your To list, add things to do and delete already done</h1>
-    <section class="section">
-<input type="text" placeholder="Enter New Activity and time" class="input"><button class="add">Add</button>
+    <header>
+        <h1>My Shopping List</h1>
+    </header>
+    <section>
+        <h2>Items: </h2>
+        <ul id="item-list"></ul>
+        <label for="new-item">Add new item:</label>
+        <input type="text" id="new-item">
+        <button id="add-button">Add</button>
     </section>
-    <script src="app.js"></script>
+
+    <script src="script.js"></script>
 </body>
 </html>
